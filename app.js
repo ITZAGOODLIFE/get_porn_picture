@@ -63,7 +63,7 @@ superagent.get(cnodeUrl)
   });
 };
 dotask();
-setTimeout('dotask()',600000);
+setInterval(dotask(),600000);
 Array.prototype.shuffle = function() {
     var i = this.length;
     while(i){
